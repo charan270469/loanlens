@@ -1,0 +1,16 @@
+{
+  "version": "mock_from_env",
+  "status": "candidate",
+  "trained_at": "2026-03-01T15:44:28.516338+00:00",
+  "trainer_git_commit": "b6f82c3c4d388147c85c70686260df7ad4227d4e",
+  "dataset_path": "D:\\hackathons\\iith\\.tmp_repo_loanlens_ai\\data\\mock_training\\mock_lending_snapshot.csv",
+  "row_count": 5000,
+  "event_rate": 0.2436,
+  "training_window": {
+    "as_of_start": "2022-01-01",
+    "as_of_end": "2025-12-30"
+  },
+  "feature_schema_hash": "2a31b5f56774cc47708e7239857d41967b994114d895349fca7072fe89365bfc",
+  "champion_model": "ensemble",
+  "notes": "use_mock_training_data"
+}

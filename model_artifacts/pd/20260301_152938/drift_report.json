@@ -1,0 +1,74 @@
+{
+  "feature_drift": {
+    "psi_by_feature": {
+      "baseline_weighted_score": 0.02525728001611849,
+      "representative_credit_score": 0.026157784258091465,
+      "debt_to_income_ratio": 0.014283229180924135,
+      "average_monthly_balance": 0.019754511139829196,
+      "monthly_average_credit": 0.015855809753997484,
+      "monthly_average_debit": 0.013414180125569159,
+      "secondary_research_risk_score": 0.009091398341343199,
+      "circular_trading_score": 0.035863348482306434,
+      "notes_risk_adjustment": 0.03838107692684824,
+      "paystub_recency_days": 0.012812716907079958,
+      "delinquency_profile.30_day_delinquencies": 0.00299637331437121,
+      "delinquency_profile.60_day_delinquencies": 0.0027756943794405645,
+      "delinquency_profile.90_day_delinquencies": 0.0007574580087177932,
+      "negative_events.bankruptcies": 0.0023058774259602185,
+      "negative_events.collections": 0.010399663964665434
+    },
+    "top_drift_features": [
+      {
+        "feature": "notes_risk_adjustment",
+        "psi": 0.03838107692684824
+      },
+      {
+        "feature": "circular_trading_score",
+        "psi": 0.035863348482306434
+      },
+      {
+        "feature": "representative_credit_score",
+        "psi": 0.026157784258091465
+      },
+      {
+        "feature": "baseline_weighted_score",
+        "psi": 0.02525728001611849
+      },
+      {
+        "feature": "average_monthly_balance",
+        "psi": 0.019754511139829196
+      },
+      {
+        "feature": "monthly_average_credit",
+        "psi": 0.015855809753997484
+      },
+      {
+        "feature": "debt_to_income_ratio",
+        "psi": 0.014283229180924135
+      },
+      {
+        "feature": "monthly_average_debit",
+        "psi": 0.013414180125569159
+      },
+      {
+        "feature": "paystub_recency_days",
+        "psi": 0.012812716907079958
+      },
+      {
+        "feature": "negative_events.collections",
+        "psi": 0.010399663964665434
+      }
+    ],
+    "mean_psi": 0.015340426815017533
+  },
+  "default_rate_drift": {
+    "expected_event_rate": 0.2514571190674438,
+    "actual_event_rate": 0.23466666666666666,
+    "absolute_change": 0.016790452400777117
+  },
+  "calibration_drift": {
+    "ece_validation_before": 0.11584350436464703,
+    "ece_validation_after": 2.0000000029699967e-08,
+    "ece_test_after": 0.03180787367325496
+  }
+}

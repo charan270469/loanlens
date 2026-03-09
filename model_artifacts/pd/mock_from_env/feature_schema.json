@@ -1,0 +1,56 @@
+{
+  "feature_order": [
+    "baseline_weighted_score",
+    "representative_credit_score",
+    "debt_to_income_ratio",
+    "average_monthly_balance",
+    "monthly_average_credit",
+    "monthly_average_debit",
+    "secondary_research_risk_score",
+    "circular_trading_score",
+    "notes_risk_adjustment",
+    "paystub_recency_days",
+    "delinquency_profile.30_day_delinquencies",
+    "delinquency_profile.60_day_delinquencies",
+    "delinquency_profile.90_day_delinquencies",
+    "negative_events.bankruptcies",
+    "negative_events.collections"
+  ],
+  "defaults": {
+    "baseline_weighted_score": 55.0,
+    "representative_credit_score": 680.0,
+    "debt_to_income_ratio": 0.38,
+    "average_monthly_balance": 2500.0,
+    "monthly_average_credit": 9000.0,
+    "monthly_average_debit": 7500.0,
+    "secondary_research_risk_score": 40.0,
+    "circular_trading_score": 35.0,
+    "notes_risk_adjustment": 0.0,
+    "paystub_recency_days": 45.0,
+    "delinquency_profile.30_day_delinquencies": 0.0,
+    "delinquency_profile.60_day_delinquencies": 0.0,
+    "delinquency_profile.90_day_delinquencies": 0.0,
+    "negative_events.bankruptcies": 0.0,
+    "negative_events.collections": 0.0
+  },
+  "aliases": {
+    "baseline_weighted_score": [
+      "final_weighted_score"
+    ],
+    "debt_to_income_ratio": [
+      "dti",
+      "debt_to_income_ratio"
+    ],
+    "representative_credit_score": [
+      "credit_score",
+      "representative_credit_score"
+    ],
+    "negative_events.bankruptcies": [
+      "bankruptcies"
+    ],
+    "negative_events.collections": [
+      "collections"
+    ]
+  },
+  "schema_hash": "2a31b5f56774cc47708e7239857d41967b994114d895349fca7072fe89365bfc"
+}
