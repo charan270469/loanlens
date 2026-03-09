@@ -1,0 +1,44 @@
+pandas
+numpy
+pyarrow
+fastapi
+uvicorn
+typing
+typing_extensions
+pymupdf
+python-multipart
+Pillow
+PyMuPDF
+python-dotenv
+requests
+landingai-ade
+opencv-python
+scikit-learn
+
+# image fraud engine dependencies
+opencv-python
+matplotlib
+
+## rag service dependencies
+sentence_transformers
+langchain-huggingface
+langchain-community
+faiss-cpu
+langchain-aws
+langchain-groq
+# google-genai
+beautifulsoup4
+langchain-text-splitters
+
+## credit workflow architecture extensions
+pyspark
+delta-spark
+mlflow
+xgboost
+lightgbm
+shap
+python-docx
+reportlab
+
+## optional NLP entity screening (bank_credit_nlp integration)
+transformers
